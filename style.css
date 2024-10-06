@@ -200,8 +200,10 @@ body {
 
     .lyrics-container {
         font-size: 1em;
-        height: 5vh;
-        align-items: flex-end;
+        height: 15vh;
+        align-items: flex-start;
+        background-color: #0072ff;
+        color: #fff;
     }
 }
 
