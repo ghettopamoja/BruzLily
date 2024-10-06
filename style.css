@@ -169,37 +169,39 @@ body {
     scroll-behavior: smooth;
 }
 
-/* Responsive */
-@media (max-width: 800px) {
-    #lyrics-list li {
-        width: 100%;
-        height:80vh
-    }
 
-    .image-container {
+@media (max-width: 768px) {
+    .container {
         width: 100%;
-        height: 100%;
-        margin: none;
+        height: 100vh;
+        padding: 10px;
+        border-radius: 1px;
     }
+    
 
     .audio-controls {
-        margin-bottom: 5px;
-        width:100%
-    }
-    .lyrics-container{
-        height: 10vh;
-        font-size: 0.8rem;
+        width: 100%;
     }
 
-    #songList{
-        flex-direction: column;
-        overflow-x: none;
+    .buttons-container {
+        width: 100%;
+       
+    }
+
+    .progress-truck {
+        width: 100%;
+    }
+
+    #lyrics-list li {
+        width: 100%;
+        height: 80vh;
         overflow-y: auto;
-        scroll-snap-type: y mandatory;
     }
 
-    .container{
-        height: 100%;
+    .lyrics-container {
+        font-size: 1em;
+        height: 5vh;
+        align-items: flex-end;
     }
 }
 
