@@ -186,12 +186,20 @@ body {
         margin-bottom: 5px;
         width:100%
     }
+    .lyrics-container{
+        height: 10vh;
+        font-size: 0.8rem;
+    }
 
     #songList{
         flex-direction: column;
         overflow-x: none;
         overflow-y: auto;
         scroll-snap-type: y mandatory;
+    }
+
+    .container{
+        height: 100%;
     }
 }
 
